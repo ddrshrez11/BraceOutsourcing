@@ -50,7 +50,7 @@
             <h5 class="text-center">Services</h5>
             <h2 class="text-center">What We Do</h2>
             <div class="row">
-                <div class="col-md-5"><img class="img-fluid" src="assets/img/accounting.jpg"></div>
+                <div class="col-md-5"><img class="img-fluid" src="assets/img/accounting.jpg" width="350"></div>
                 <div class="col-md-4 offset-md-1 align-self-center">
                     <div class="services-info">
                         <p class="d-flex justify-content-start order-1 ordering">#1</p>
@@ -62,15 +62,15 @@
             <div class="row" style="box-shadow: 0px 0px 45px -10px rgba(93,114,128,0.15);">
                 <div class="col-md-4 offset-md-2 align-self-center order-12 order-sm-12 order-md-1">
                     <div class="services-info">
-                        <p class="d-flex justify-content-end ordering">#2</p>
-                        <h3 class="d-flex justify-content-end">Tax Services</h3>
-                        <p class="d-flex justify-content-end order-12">Paragraph</p>
+                        <p class="ordering">#2</p>
+                        <h3>Tax Services</h3>
+                        <p>Paragraph</p>
                     </div>
                 </div>
-                <div class="col-md-5 offset-md-1 text-right order-1 order-sm-1 order-md-12"><img class="img-fluid" src="assets/img/Tax.jpg"></div>
+                <div class="col-md-5 offset-md-1 text-right order-1 order-sm-1 order-md-12"><img class="img-fluid" src="assets/img/Tax.jpg" width="350"></div>
             </div>
             <div class="row">
-                <div class="col-md-5"><img class="img-fluid" src="assets/img/Finance.jpg"></div>
+                <div class="col-md-5"><img class="img-fluid" src="assets/img/Finance.jpg" width="350"></div>
                 <div class="col-md-4 offset-md-1 align-self-center">
                     <div class="services-info">
                         <p class="d-flex justify-content-start order-1 ordering">#3</p>
@@ -114,18 +114,18 @@
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item">
                     <div class="row">
-                        <div class="col-md-3"><img class="img-fluid" src="assets/img/account-service.png"></div>
-                        <div class="col-md-3"><img class="img-fluid" src="assets/img/accounting.jpg"></div>
-                        <div class="col-md-3"><img class="img-fluid" src="assets/img/financialAdvisory-service.png"></div>
-                        <div class="col-md-3"><img class="img-fluid" src="assets/img/Finance.jpg"></div>
+                        <div class="col-3"><img class="img-fluid" src="assets/img/account-service.png"></div>
+                        <div class="col-3"><img class="img-fluid" src="assets/img/accounting.jpg"></div>
+                        <div class="col-3"><img class="img-fluid" src="assets/img/financialAdvisory-service.png"></div>
+                        <div class="col-3"><img class="img-fluid" src="assets/img/Finance.jpg"></div>
                     </div>
                 </div>
                 <div class="carousel-item active">
                     <div class="row">
-                        <div class="col-md-3"><img class="img-fluid" src="assets/img/account-service.png"></div>
-                        <div class="col-md-3"><img class="img-fluid" src="assets/img/Tax.jpg"></div>
-                        <div class="col-md-3"><img class="img-fluid" src="assets/img/tax-service.png"></div>
-                        <div class="col-md-3"><img class="img-fluid" src="assets/img/accounting.jpg"></div>
+                        <div class="col-3"><img class="img-fluid" src="assets/img/account-service.png"></div>
+                        <div class="col-3 col-md-3"><img class="img-fluid" src="assets/img/Tax.jpg"></div>
+                        <div class="col-3 col-md-3"><img class="img-fluid" src="assets/img/tax-service.png"></div>
+                        <div class="col-3 col-md-3"><img class="img-fluid" src="assets/img/accounting.jpg"></div>
                     </div>
                 </div>
             </div>
@@ -177,7 +177,11 @@
         </section>
         <!-- End: Quote-form -->
     </div>
-    <!-- End: Parallax Background -->
+    <!-- End: Parallax Background --><script type="text/javascript">
+      function changeCarousel(index){
+        $("#Carousel-1").carousel(index);
+      }
+</script>
     <!-- Start: Footer -->
     <section class="footer">
         <p class="text-center">Copyright © 2020 Brass Outsourcing Private Limited</p>
